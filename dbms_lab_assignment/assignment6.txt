@@ -27,10 +27,10 @@ mysql> show databases;;
 ERROR:
 No query specified
 
-mysql> create database anisha;
+mysql> create database anil;
 Query OK, 1 row affected (0.01 sec)
 
-mysql> use anisha
+mysql> use anil
 Database changed
 mysql> show tables;
 Empty set (0.03 sec)
@@ -42,7 +42,7 @@ mysql> CREATE TABLE Dept (
     -> );
 Query OK, 0 rows affected (0.05 sec)
 
-mysql> use anisha
+mysql> use anil
 Database changed
 mysql> show databases;;
 +--------------------+
@@ -52,7 +52,7 @@ mysql> show databases;;
 | mydb2              |
 | mydb3              |
 | mysql              |
-| anisha             |
+| anil             |
 | performance_schema |
 | sys                |
 +--------------------+
@@ -63,7 +63,7 @@ No query specified
 
 mysql> show tables;
 +-----------------+
-| Tables_in_anisha|
+| Tables_in_anil|
 +-----------------+
 | dept            |
 +-----------------+
